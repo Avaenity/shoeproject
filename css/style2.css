@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,500,300,700);
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,400,600,700');
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon/icomoon.eot');
+	src:url('../fonts/icomoon/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+*{ outline:none;}
+body{ background-color: #f5f5f5; margin:0; padding:0; font-family: 'Raleway', sans-serif; -webkit-font-smoothing: antialiased;}
+html, body{ height:100%;}
+
+/* HEADER */
+header{ width:100%; float:left; background-size: cover; color:#fff;}
+
+.navbar-default{ height:85px; padding-top:4px; border-radius:0; border-bottom:1px solid rgba(255,255,255,0.4);background-color:#fff;}
+.navbar-default {-moz-transition: all 0.2s ease; -o-transition: all 0.2s ease; -ms-transition: all 0.2s ease; transition: all 0.2s ease;}
+.navbar-default .navbar-brand{ height:auto;}
+.navbar-default .navbar-brand img{ height:35px; margin-top:10px;}
+.navbar-default .navbar-nav{ float:right;}
+.navbar-default .navbar-nav>li{ float:left;}
+.navbar-default .navbar-nav>li>a{ padding-top:30px; padding-bottom:30px; color:black; font-weight:700;}
+.navbar-default .navbar-nav>li>a:hover{border-bottom:3px solid #FD4F45; color:#FD4F45;}
+.navbar-default .navbar-nav>li>a:focus{color:#FD4F45;}
+.navbar-default .navbar-nav>li>a.hamburger-menu{ float:left; margin-top:-3px; font-size:26px;}
+.navbar-default .navbar-nav>li>a.ion-ios-search{ float:left; margin-top:-3px; font-size:26px;}
+.navbar-default .navbar-nav>li>a.ion-android-person{ float:left; margin-top:-3px; font-size:26px;}
+.navbar-default .navbar-nav>li>a.ion-ios-paperplane{ float:left; margin-top:-3px; font-size:26px;}
+.navbar-default .navbar-nav>li>a.ion-android-cart{ float:left; margin-top:-3px; font-size:26px;}
+.navbar-default .navbar-nav>li:hover .dropdown-menu{ display:block;}
+.navbar-default .navbar-nav>li:hover a{border-bottom:3px solid #FD4F45; color:#FD4F45;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{ background:none; color:#fff;}
+.navbar-default .dropdown-menu{ float:left; margin-right:-8px; background:none; color:#fff; box-shadow:none; border-radius:0; border:none; display:none;}
+.navbar-default .dropdown-menu li{ width:100%; float:left; text-align:right;}
+.navbar-default .dropdown-menu li a{ color:#fff; font-weight:700; border:none !important;}
+.navbar-default .dropdown-menu li a:hover{background:none; opacity:0.8;}
+.fixed-nav{ background:url(../images/rainbow-bar.jpg) top repeat-x rgba(255,255,255,0.92) !important;}
+.fixed-nav a{color:black!important;}
+.fixed-nav a:hover {color:#FD4F45;}
+/*.fixed-nav img{ -webkit-filter: brightness(1) invert(1); filter: brightness(1) invert(1); }*/
+.fixed-nav .dropdown-menu{ background:#febd0e;}
+/*.fixed-nav .dropdown-menu a{ color:#fff !important;}*/
+
+.card {
+    margin: 20% 20% 0 20%;
+    padding: 5% 10% 10% 10%;
+    border-radius: 6px;
+    box-shadow: 0 20px 16px -15px rgba(0, 0, 0, 0.57);
+    background-color: #fff;
+    text-align: center;
+}
+.btn{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding: 20px 25px 20px 25px;
+}
+.card-img{
+    width: 200px;
+}
+.btn-primary{
+    background-color: #FD4F45;
+    border-color: #FD4F45;
+}
+.btn-primary:hover{
+    background: none;
+    border: 3px solid #FD4F45;
+    color: #FD4F45;
+}
